@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment2.HelloController">
+   <children>
+      <TextField fx:id="word" layoutX="116.0" layoutY="95.0" promptText="Enter a word" />
+      <Button fx:id="submit" layoutX="402.0" layoutY="96.0" mnemonicParsing="false" text="Submit button" onAction="#buttonClick"/>
+      <Label fx:id="totalPointsLabel" layoutX="162.0" layoutY="167.0" prefHeight="18.0" prefWidth="94.0" text="Total Points" />
+      <Label fx:id="totalPointsValue" layoutX="334.0" layoutY="168.0" prefHeight="18.0" prefWidth="94.0" text="0" />
+      <Button fx:id="btnA" layoutX="96.0" layoutY="196.0" mnemonicParsing="false" text="A" onAction="#keysButton" />
+      <Button fx:id="btnB" layoutX="162.0" layoutY="196.0" mnemonicParsing="false" text="B" onAction="#keysButton" />
+      <Button fx:id="btnC" layoutX="229.0" layoutY="196.0" mnemonicParsing="false" text="C" onAction="#keysButton" />
+      <Button fx:id="btnD" layoutX="300.0" layoutY="196.0" mnemonicParsing="false" text="D" onAction="#keysButton" />
+      <Button fx:id="btnE" layoutX="365.0" layoutY="196.0" mnemonicParsing="false" text="E" onAction="#keysButton" />
+      <Button fx:id="btnF" layoutX="429.0" layoutY="196.0" mnemonicParsing="false" text="F" onAction="#keysButton" />
+      <Button fx:id="btnG" layoutX="500.0" layoutY="196.0" mnemonicParsing="false" text="G" onAction="#keysButton" />
+      <Button fx:id="btnH" layoutX="96.0" layoutY="259.0" mnemonicParsing="false" text="H" onAction="#keysButton" />
+      <Button fx:id="btnI" layoutX="162.0" layoutY="259.0" mnemonicParsing="false" text="I" onAction="#keysButton" />
+      <Button fx:id="btnJ" layoutX="229.0" layoutY="259.0" mnemonicParsing="false" text="J" onAction="#keysButton" />
+      <Button fx:id="btnK" layoutX="300.0" layoutY="259.0" mnemonicParsing="false" text="K" onAction="#keysButton" />
+      <Button fx:id="btnL" layoutX="365.0" layoutY="259.0" mnemonicParsing="false" text="L" onAction="#keysButton" />
+      <Button fx:id="btnM" layoutX="429.0" layoutY="259.0" mnemonicParsing="false" text="M" onAction="#keysButton" />
+      <Button fx:id="btnN" layoutX="500.0" layoutY="259.0" mnemonicParsing="false" text="N" onAction="#keysButton" />
+      <Button fx:id="btnO" layoutX="96.0" layoutY="320.0" mnemonicParsing="false" text="O" onAction="#keysButton" />
+      <Button fx:id="btnP" layoutX="162.0" layoutY="320.0" mnemonicParsing="false" text="P" onAction="#keysButton" />
+      <Button fx:id="btnQ" layoutX="229.0" layoutY="320.0" mnemonicParsing="false" text="Q" onAction="#keysButton" />
+      <Button fx:id="btnR" layoutX="300.0" layoutY="320.0" mnemonicParsing="false" text="R" onAction="#keysButton" />
+      <Button fx:id="btnS" layoutX="365.0" layoutY="320.0" mnemonicParsing="false" text="S" onAction="#keysButton" />
+      <Button fx:id="btnT" layoutX="429.0" layoutY="320.0" mnemonicParsing="false" text="T" onAction="#keysButton" />
+      <Button fx:id="btnU" layoutX="500.0" layoutY="320.0" mnemonicParsing="false" text="U" onAction="#keysButton" />
+      <Button fx:id="btnV" layoutX="96.0" layoutY="390.0" mnemonicParsing="false" text="V" onAction="#keysButton" />
+      <Button fx:id="btnW" layoutX="162.0" layoutY="390.0" mnemonicParsing="false" text="W" onAction="#keysButton" />
+      <Button fx:id="btnX" layoutX="229.0" layoutY="390.0" mnemonicParsing="false" text="X" onAction="#keysButton" />
+      <Button fx:id="btnY" layoutX="300.0" layoutY="390.0" mnemonicParsing="false" text="Y" onAction="#keysButton" />
+      <Button fx:id="btnZ" layoutX="365.0" layoutY="390.0" mnemonicParsing="false" text="Z" onAction="#keysButton" />
+      <TextArea fx:id="textarea" layoutX="66.0"  layoutY="470.0" prefHeight="87.0" prefWidth="519.0" promptText="Previous Word"/>
+      <Label fx:id="lblA" layoutX="108.0" layoutY="227.0" text="9" />
+      <Label fx:id="lblB" layoutX="172.0" layoutY="236.0" text="2" />
+      <Label fx:id="lblC" layoutX="240.0" layoutY="236.0" text="2" />
+      <Label fx:id="lblD" layoutX="309.0" layoutY="237.0" text="4" />
+      <Label fx:id="lblE" layoutX="375.0" layoutY="236.0" text="12" />
+      <Label fx:id="lblF" layoutX="439.0" layoutY="236.0" text="2" />
+      <Label fx:id="lblG" layoutX="510.0" layoutY="236.0" text="3" />
+      <Label fx:id="lblH" layoutX="106.0" layoutY="298.0" text="2" />
+      <Label fx:id="lblI" layoutX="172.0" layoutY="298.0" text="8" />
+      <Label fx:id="lblJ" layoutX="239.0" layoutY="298.0" text="1" />
+      <Label fx:id="lblK" layoutX="309.0" layoutY="298.0" text="1" />
+      <Label fx:id="lblL" layoutX="375.0" layoutY="298.0" text="4" />
+      <Label fx:id="lblM" layoutX="435.0" layoutY="298.0" text="2" />
+      <Label fx:id="lblN" layoutX="510.0" layoutY="298.0" text="6" />
+      <Label fx:id="lblO" layoutX="106.0" layoutY="362.0" text="8" />
+      <Label fx:id="lblP" layoutX="175.0" layoutY="362.0" text="2" />
+      <Label fx:id="lblQ" layoutX="240.0" layoutY="362.0" text="1" />
+      <Label fx:id="lblR" layoutX="309.0" layoutY="362.0" text="6" />
+      <Label fx:id="lblS" layoutX="375.0" layoutY="362.0" text="4" />
+      <Label fx:id="lblT" layoutX="435.0" layoutY="362.0" text="6" />
+      <Label fx:id="lblU" layoutX="510.0" layoutY="362.0" text="4" />
+      <Label fx:id="lblV" layoutX="99.0" layoutY="430.0" text="2" />
+      <Label fx:id="lblW" layoutX="174.0" layoutY="430.0" text="2" />
+      <Label fx:id="lblX" layoutX="240.0" layoutY="430.0" text="1" />
+      <Label fx:id="lblY" layoutX="309.0" layoutY="430.0" text="2" />
+      <Label fx:id="lblZ" layoutX="375.0" layoutY="430.0" text="1" />
+   </children>
+</Pane>
